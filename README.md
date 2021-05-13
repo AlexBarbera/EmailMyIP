@@ -1,5 +1,6 @@
 # EmailMyIP
-Script that emails your ip when it detects a change.
+Script that emails your ip when it detects a change.  
+To run simply run `sudo ./run.sh`
 
 ## Setup
 Change the _config.json_ file to your send from and to address (recommended gmail with [allow less secure apps](https://myaccount.google.com/lesssecureapps) ).  
