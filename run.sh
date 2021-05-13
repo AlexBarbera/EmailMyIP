@@ -1,4 +1,4 @@
-#! ~/venv/bin/python
+#! /bin/bash
 
 
 while :
@@ -7,7 +7,7 @@ do
 
 	pid_server=$!
 
-	python send_mail.py personal/config.json
+	~/venv/bin/python send_mail.py personal/config.json
 
 	kill -9 $pid_server
 
