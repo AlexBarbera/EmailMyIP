@@ -1,8 +1,9 @@
 {
 	"ip":"",
+	"ip_check_url":"https://api.ipify.org",
 	"mail_from":"",
 	"mail_to":"",
 	"mail_port":465,
-	"mail_passwd":""
-	
+	"mail_passwd":"",
+	"smtp_server":"smtp.gmail.com"
 }
